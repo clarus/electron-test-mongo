@@ -1,0 +1,37 @@
+{
+  "name": "electron-test-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarus/electron-test-mongo.git"
+  },
+  "author": "Guillaume Claret",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clarus/electron-test-mongo/issues"
+  },
+  "homepage": "https://github.com/clarus/electron-test-mongo#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "electron": "^1.6.6",
+    "flow-bin": "^0.45.0"
+  },
+  "dependencies": {
+    "mongodb": "^2.2.26",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "^2.13.0",
+    "redux-ship": "^0.1.4",
+    "redux-ship-devtools": "^0.1.4"
+  }
+}
